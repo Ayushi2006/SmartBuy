@@ -1,0 +1,105 @@
+[
+  {
+    "platform": "Amazon",
+    "title": "iPhone 13 (128GB) - Midnight",
+    "price": 52999,
+    "shipping": 0,
+    "delivery_days": 2,
+    "rating": 4.5,
+    "link": "https://amazon.in/iphone13"
+  },
+  {
+    "platform": "Flipkart",
+    "title": "Apple iPhone 13 (Midnight, 128 GB)",
+    "price": 51499,
+    "shipping": 0,
+    "delivery_days": 3,
+    "rating": 4.4,
+    "link": "https://flipkart.com/iphone13"
+  },
+  {
+    "platform": "Croma",
+    "title": "iPhone 13 128GB Midnight Black",
+    "price": 51990,
+    "shipping": 99,
+    "delivery_days": 2,
+    "rating": 4.3,
+    "link": "https://croma.com/iphone13"
+  },
+
+  {
+    "platform": "Amazon",
+    "title": "Samsung Galaxy S21 FE 5G (Olive, 128GB)",
+    "price": 32999,
+    "shipping": 0,
+    "delivery_days": 2,
+    "rating": 4.3,
+    "link": "https://amazon.in/s21fe"
+  },
+  {
+    "platform": "Flipkart",
+    "title": "Samsung S21 FE 5G (Olive Green, 128 GB)",
+    "price": 31999,
+    "shipping": 49,
+    "delivery_days": 3,
+    "rating": 4.2,
+    "link": "https://flipkart.com/s21fe"
+  },
+
+  {
+    "platform": "Amazon",
+    "title": "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 128GB)",
+    "price": 19999,
+    "shipping": 0,
+    "delivery_days": 2,
+    "rating": 4.2,
+    "link": "https://amazon.in/oneplus-nord"
+  },
+  {
+    "platform": "Flipkart",
+    "title": "OnePlus Nord CE3 Lite 5G (Lime, 128 GB)",
+    "price": 19499,
+    "shipping": 0,
+    "delivery_days": 3,
+    "rating": 4.1,
+    "link": "https://flipkart.com/oneplus-nord"
+  },
+
+  {
+    "platform": "Amazon",
+    "title": "Sony WH-1000XM5 Noise Cancelling Headphones",
+    "price": 29990,
+    "shipping": 0,
+    "delivery_days": 2,
+    "rating": 4.7,
+    "link": "https://amazon.in/sonyxm5"
+  },
+  {
+    "platform": "Flipkart",
+    "title": "Sony WH1000XM5 Wireless Headphones",
+    "price": 28999,
+    "shipping": 0,
+    "delivery_days": 4,
+    "rating": 4.6,
+    "link": "https://flipkart.com/sonyxm5"
+  },
+
+  {
+    "platform": "Amazon",
+    "title": "Dell Inspiron 15 Laptop (i5, 16GB RAM, 512GB SSD)",
+    "price": 58999,
+    "shipping": 0,
+    "delivery_days": 3,
+    "rating": 4.3,
+    "link": "https://amazon.in/dell-inspiron"
+  },
+  {
+    "platform": "Flipkart",
+    "title": "Dell Inspiron 15 (i5, 16GB RAM, 512 SSD)",
+    "price": 57499,
+    "shipping": 0,
+    "delivery_days": 4,
+    "rating": 4.2,
+    "link": "https://flipkart.com/dell-inspiron"
+  }
+]
