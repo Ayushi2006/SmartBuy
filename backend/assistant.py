@@ -7,22 +7,14 @@ def shopping_assistant(query):
     data = load_products()
     intent = parse_query(query)
 
-    filtered = []
+    # Filter by category & budget
+    filtered = [
+        p for p in data
+        if (not intent["category"] or p.get("category") == intent["category"])
+        and (not intent["budget"] or p.get("price", 0) <= intent["budget"])
+    ]
 
-    for p in data:
-        # Safe category check
-        if intent["category"] and p.get("category") != intent["category"]:
-            continue
-        # Budget filter
-        if intent["budget"] and p.get("price", 0) > intent["budget"]:
-            continue
-        filtered.append(p)
+    # Rank products using scorer (optional)
+    ranked = rank_products(filtered)
 
-    # fallback if nothing matches
-    if not filtered:
-        filtered = data
-
-    # Rank products
-    ranked, best = rank_products(filtered)
-
-    return ranked, best
+    return ranked

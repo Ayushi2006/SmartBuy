@@ -1,17 +1,25 @@
 from assistant import shopping_assistant
 
-query = "best phone under 50k"
+def main():
+    print("Welcome to SmartBuy CLI AI Assistant!\n")
 
-print("User Query:", query)
+    while True:
+        query = input("Enter your product query (type 'exit' to quit): ").strip()
+        if query.lower() == "exit":
+            print("Bye!")
+            break
 
-products, best = shopping_assistant(query)
+        products = shopping_assistant(query)
 
-print("\nRecommended Products")
+        if not products:
+            print("No products found for your budget.\n")
+            continue
 
-for p in products:
-    print(f"-{p['name']}, Rs{p['price']}, {p.get('rating', 'N/A')}, Reviews:{p.get('reviews', 0)}")
-if best:
-    print("\nAI Recommendation:")
-    print(f"{best['name']} is the best option under your budget with rating {best.get('rating', 'N/A')} and strong overall value (Score: {best['score']}).")
-else:
-    print("\nNo suitable product found.")
+        print(f"\n🔹 Products matching your query ({len(products)} found):")
+        for p in products:
+            print(f"- {p['name']}, Rs{p['price']}, Rating: {p.get('rating','N/A')}, Reviews: {p.get('reviews',0)}")
+
+        print("\n" + "-"*50 + "\n")
+
+if __name__ == "__main__":
+    main()

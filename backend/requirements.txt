@@ -1,0 +1,17 @@
+# SmartBuy AI Project Requirements
+
+# Core libraries (built-in, no need to install)
+# json
+# re
+
+# Optional numerical/data handling
+numpy==1.26.0
+pandas==2.1.1
+
+# Optional web/GUI interface
+Flask==2.3.2
+gradio==3.43.0
+
+# Development & environment utilities
+python-dotenv==1.0.0
+

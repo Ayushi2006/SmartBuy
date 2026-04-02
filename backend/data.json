@@ -1,12 +1,13 @@
 [
-  {"name":"iPhone 13","price":49999,"rating":4.6,"reviews":12000,"brand":"Apple","category":"phone"},
-  {"name":"Samsung Galaxy S21 FE","price":45999,"rating":4.4,"reviews":8500,"brand":"Samsung","category":"phone"},
-  {"name":"OnePlus 11R","price":39999,"rating":4.5,"reviews":10200,"brand":"OnePlus","category":"phone"},
-  {"name":"Google Pixel 7","price":47999,"rating":4.3,"reviews":6200,"brand":"Google","category":"phone"},
-  {"name":"iQOO Neo 7 Pro","price":34999,"rating":4.4,"reviews":5400,"brand":"iQOO","category":"phone"},
-  {"name":"Realme GT 6","price":29999,"rating":4.2,"reviews":4200,"brand":"Realme","category":"phone"},
-  {"name":"Nothing Phone 2","price":44999,"rating":4.3,"reviews":3900,"brand":"Nothing","category":"phone"},
-  {"name":"Samsung Galaxy A54","price":37999,"rating":4.2,"reviews":6100,"brand":"Samsung","category":"phone"},
-  {"name":"Redmi Note 13 Pro+","price":31999,"rating":4.1,"reviews":7200,"brand":"Xiaomi","category":"phone"},
-  {"name":"Motorola Edge 40","price":36999,"rating":4.3,"reviews":5100,"brand":"Motorola","category":"phone"}
+  {"name":"Samsung Galaxy M04","price":8700,"rating":4.0,"reviews":1300,"brand":"Samsung","category":"phone","shipping":200,"delivery_days":5},
+  {"name":"Redmi 12C","price":9500,"rating":4.2,"reviews":1800,"brand":"Xiaomi","category":"phone","shipping":150,"delivery_days":4},
+  {"name":"Realme C55","price":8900,"rating":4.1,"reviews":1500,"brand":"Realme","category":"phone","shipping":180,"delivery_days":6},
+  
+  {"name":"Levi's Jeans","price":2000,"rating":4.3,"reviews":400,"brand":"Levi's","category":"clothes","shipping":50,"delivery_days":3},
+  {"name":"Nike T-Shirt","price":1200,"rating":4.1,"reviews":250,"brand":"Nike","category":"clothes","shipping":40,"delivery_days":2},
+  {"name":"Adidas Sneakers","price":4000,"rating":4.5,"reviews":600,"brand":"Adidas","category":"clothes","shipping":70,"delivery_days":4},
+  
+  {"name":"Sony Headphones","price":5000,"rating":4.4,"reviews":300,"brand":"Sony","category":"electronics","shipping":200,"delivery_days":3},
+  {"name":"Samsung 32\" LED TV","price":18000,"rating":4.6,"reviews":150,"brand":"Samsung","category":"electronics","shipping":500,"delivery_days":7},
+  {"name":"Mi Smartwatch","price":3000,"rating":4.2,"reviews":400,"brand":"Xiaomi","category":"electronics","shipping":100,"delivery_days":5}
 ]

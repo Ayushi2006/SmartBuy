@@ -1,9 +1,15 @@
 import json
+import os
 
 def load_products():
-    with open("data.json") as f:
-        return json.load(f)
+    base_dir = os.path.dirname(__file__)
+    data_path = os.path.join(base_dir, "data.json")
+
+    with open(data_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
     
+    return data
+
 def get_products(query):
     data = load_products()
 
