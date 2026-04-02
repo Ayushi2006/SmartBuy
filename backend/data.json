@@ -1,13 +1,1022 @@
 [
-  {"name":"Samsung Galaxy M04","price":8700,"rating":4.0,"reviews":1300,"brand":"Samsung","category":"phone","shipping":200,"delivery_days":5},
-  {"name":"Redmi 12C","price":9500,"rating":4.2,"reviews":1800,"brand":"Xiaomi","category":"phone","shipping":150,"delivery_days":4},
-  {"name":"Realme C55","price":8900,"rating":4.1,"reviews":1500,"brand":"Realme","category":"phone","shipping":180,"delivery_days":6},
-  
-  {"name":"Levi's Jeans","price":2000,"rating":4.3,"reviews":400,"brand":"Levi's","category":"clothes","shipping":50,"delivery_days":3},
-  {"name":"Nike T-Shirt","price":1200,"rating":4.1,"reviews":250,"brand":"Nike","category":"clothes","shipping":40,"delivery_days":2},
-  {"name":"Adidas Sneakers","price":4000,"rating":4.5,"reviews":600,"brand":"Adidas","category":"clothes","shipping":70,"delivery_days":4},
-  
-  {"name":"Sony Headphones","price":5000,"rating":4.4,"reviews":300,"brand":"Sony","category":"electronics","shipping":200,"delivery_days":3},
-  {"name":"Samsung 32\" LED TV","price":18000,"rating":4.6,"reviews":150,"brand":"Samsung","category":"electronics","shipping":500,"delivery_days":7},
-  {"name":"Mi Smartwatch","price":3000,"rating":4.2,"reviews":400,"brand":"Xiaomi","category":"electronics","shipping":100,"delivery_days":5}
+  {
+    "name": "Lenovo ThinkPad X1",
+    "price": 83220,
+    "rating": 4.9,
+    "reviews": 3332,
+    "brand": "Lenovo",
+    "category": "laptop",
+    "shipping": 314,
+    "delivery_days": 1
+  },
+  {
+    "name": "Casio G-Shock",
+    "price": 35629,
+    "rating": 4.8,
+    "reviews": 4144,
+    "brand": "Casio",
+    "category": "watch",
+    "shipping": 80,
+    "delivery_days": 2
+  },
+  {
+    "name": "H&M Denim Jeans",
+    "price": 2010,
+    "rating": 4.5,
+    "reviews": 1957,
+    "brand": "H&M",
+    "category": "clothes",
+    "shipping": 300,
+    "delivery_days": 10
+  },
+  {
+    "name": "Titan Edge",
+    "price": 31470,
+    "rating": 3.8,
+    "reviews": 457,
+    "brand": "Titan",
+    "category": "watch",
+    "shipping": 444,
+    "delivery_days": 3
+  },
+  {
+    "name": "Realme Narzo 60",
+    "price": 44357,
+    "rating": 4.5,
+    "reviews": 1811,
+    "brand": "Realme",
+    "category": "phone",
+    "shipping": 384,
+    "delivery_days": 5
+  },
+  {
+    "name": "Puma T-Shirt",
+    "price": 755,
+    "rating": 4.0,
+    "reviews": 137,
+    "brand": "Puma",
+    "category": "clothes",
+    "shipping": 135,
+    "delivery_days": 4
+  },
+  {
+    "name": "Samsung Galaxy M14",
+    "price": 47605,
+    "rating": 4.9,
+    "reviews": 2494,
+    "brand": "Samsung",
+    "category": "phone",
+    "shipping": 62,
+    "delivery_days": 9
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "price": 8098,
+    "rating": 4.9,
+    "reviews": 2118,
+    "brand": "Samsung",
+    "category": "watch",
+    "shipping": 157,
+    "delivery_days": 4
+  },
+  {
+    "name": "Asus VivoBook 15",
+    "price": 51746,
+    "rating": 4.6,
+    "reviews": 3640,
+    "brand": "Asus",
+    "category": "laptop",
+    "shipping": 188,
+    "delivery_days": 10
+  },
+  {
+    "name": "Levi's Slim Jeans",
+    "price": 1824,
+    "rating": 3.5,
+    "reviews": 2883,
+    "brand": "Levi's",
+    "category": "clothes",
+    "shipping": 237,
+    "delivery_days": 1
+  },
+  {
+    "name": "Apple iPhone 14",
+    "price": 26562,
+    "rating": 4.7,
+    "reviews": 3501,
+    "brand": "Apple",
+    "category": "phone",
+    "shipping": 52,
+    "delivery_days": 2
+  },
+  {
+    "name": "Logitech Mechanical Keyboard",
+    "price": 2630,
+    "rating": 4.1,
+    "reviews": 1735,
+    "brand": "Logitech",
+    "category": "accessories",
+    "shipping": 478,
+    "delivery_days": 9
+  },
+  {
+    "name": "Sony Wireless Earbuds",
+    "price": 4014,
+    "rating": 3.5,
+    "reviews": 2456,
+    "brand": "Sony",
+    "category": "accessories",
+    "shipping": 390,
+    "delivery_days": 1
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 42287,
+    "rating": 4.2,
+    "reviews": 4384,
+    "brand": "Samsung",
+    "category": "phone",
+    "shipping": 386,
+    "delivery_days": 3
+  },
+  {
+    "name": "HP Envy 13",
+    "price": 29910,
+    "rating": 3.8,
+    "reviews": 3973,
+    "brand": "HP",
+    "category": "laptop",
+    "shipping": 88,
+    "delivery_days": 4
+  },
+  {
+    "name": "OnePlus OnePlus Nord 3",
+    "price": 35782,
+    "rating": 4.9,
+    "reviews": 4209,
+    "brand": "OnePlus",
+    "category": "phone",
+    "shipping": 105,
+    "delivery_days": 2
+  },
+  {
+    "name": "OnePlus OnePlus 11",
+    "price": 21452,
+    "rating": 3.8,
+    "reviews": 2528,
+    "brand": "OnePlus",
+    "category": "phone",
+    "shipping": 306,
+    "delivery_days": 5
+  },
+  {
+    "name": "Realme C55",
+    "price": 15743,
+    "rating": 4.2,
+    "reviews": 4818,
+    "brand": "Realme",
+    "category": "phone",
+    "shipping": 314,
+    "delivery_days": 4
+  },
+  {
+    "name": "Apple Watch SE",
+    "price": 49084,
+    "rating": 3.7,
+    "reviews": 3865,
+    "brand": "Apple",
+    "category": "watch",
+    "shipping": 472,
+    "delivery_days": 4
+  },
+  {
+    "name": "Casio Edifice",
+    "price": 7790,
+    "rating": 3.9,
+    "reviews": 2441,
+    "brand": "Casio",
+    "category": "watch",
+    "shipping": 480,
+    "delivery_days": 7
+  },
+  {
+    "name": "Samsung Galaxy Fit 2",
+    "price": 15955,
+    "rating": 4.7,
+    "reviews": 4572,
+    "brand": "Samsung",
+    "category": "watch",
+    "shipping": 454,
+    "delivery_days": 2
+  },
+  {
+    "name": "Dell Inspiron 15",
+    "price": 104500,
+    "rating": 4.9,
+    "reviews": 191,
+    "brand": "Dell",
+    "category": "laptop",
+    "shipping": 141,
+    "delivery_days": 4
+  },
+  {
+    "name": "Asus ROG Strix",
+    "price": 118255,
+    "rating": 4.6,
+    "reviews": 2029,
+    "brand": "Asus",
+    "category": "laptop",
+    "shipping": 410,
+    "delivery_days": 9
+  },
+  {
+    "name": "Nike Air Hoodie",
+    "price": 4985,
+    "rating": 3.9,
+    "reviews": 3485,
+    "brand": "Nike",
+    "category": "clothes",
+    "shipping": 472,
+    "delivery_days": 7
+  },
+  {
+    "name": "Apple iPhone 13",
+    "price": 36601,
+    "rating": 3.6,
+    "reviews": 3252,
+    "brand": "Apple",
+    "category": "phone",
+    "shipping": 269,
+    "delivery_days": 8
+  },
+  {
+    "name": "HP Envy 13",
+    "price": 115767,
+    "rating": 3.5,
+    "reviews": 1685,
+    "brand": "HP",
+    "category": "laptop",
+    "shipping": 343,
+    "delivery_days": 8
+  },
+  {
+    "name": "Adidas Track Jacket",
+    "price": 3361,
+    "rating": 5.0,
+    "reviews": 3937,
+    "brand": "Adidas",
+    "category": "clothes",
+    "shipping": 458,
+    "delivery_days": 5
+  },
+  {
+    "name": "Adidas Running Shorts",
+    "price": 3684,
+    "rating": 4.8,
+    "reviews": 2728,
+    "brand": "Adidas",
+    "category": "clothes",
+    "shipping": 359,
+    "delivery_days": 9
+  },
+  {
+    "name": "Apple iPhone 14",
+    "price": 14023,
+    "rating": 4.0,
+    "reviews": 2312,
+    "brand": "Apple",
+    "category": "phone",
+    "shipping": 342,
+    "delivery_days": 10
+  },
+  {
+    "name": "Adidas Running Shorts",
+    "price": 3988,
+    "rating": 4.3,
+    "reviews": 4769,
+    "brand": "Adidas",
+    "category": "clothes",
+    "shipping": 53,
+    "delivery_days": 4
+  },
+  {
+    "name": "Realme Narzo 60",
+    "price": 8813,
+    "rating": 3.5,
+    "reviews": 331,
+    "brand": "Realme",
+    "category": "phone",
+    "shipping": 301,
+    "delivery_days": 2
+  },
+  {
+    "name": "Titan Edge",
+    "price": 34842,
+    "rating": 4.3,
+    "reviews": 815,
+    "brand": "Titan",
+    "category": "watch",
+    "shipping": 172,
+    "delivery_days": 6
+  },
+  {
+    "name": "Sony Portable Speaker",
+    "price": 3830,
+    "rating": 4.9,
+    "reviews": 2711,
+    "brand": "Sony",
+    "category": "accessories",
+    "shipping": 326,
+    "delivery_days": 10
+  },
+  {
+    "name": "Apple Watch SE",
+    "price": 45244,
+    "rating": 4.0,
+    "reviews": 1695,
+    "brand": "Apple",
+    "category": "watch",
+    "shipping": 230,
+    "delivery_days": 2
+  },
+  {
+    "name": "OnePlus OnePlus 11",
+    "price": 25243,
+    "rating": 4.5,
+    "reviews": 2772,
+    "brand": "OnePlus",
+    "category": "phone",
+    "shipping": 190,
+    "delivery_days": 6
+  },
+  {
+    "name": "Logitech Gaming Mouse",
+    "price": 1825,
+    "rating": 3.7,
+    "reviews": 1007,
+    "brand": "Logitech",
+    "category": "accessories",
+    "shipping": 335,
+    "delivery_days": 2
+  },
+  {
+    "name": "Adidas Track Jacket",
+    "price": 4898,
+    "rating": 3.8,
+    "reviews": 2966,
+    "brand": "Adidas",
+    "category": "clothes",
+    "shipping": 281,
+    "delivery_days": 8
+  },
+  {
+    "name": "Levi's Trucker Jacket",
+    "price": 1341,
+    "rating": 4.6,
+    "reviews": 3068,
+    "brand": "Levi's",
+    "category": "clothes",
+    "shipping": 267,
+    "delivery_days": 8
+  },
+  {
+    "name": "Puma Sports Hoodie",
+    "price": 3756,
+    "rating": 4.5,
+    "reviews": 239,
+    "brand": "Puma",
+    "category": "clothes",
+    "shipping": 358,
+    "delivery_days": 5
+  },
+  {
+    "name": "Lenovo ThinkPad X1",
+    "price": 60741,
+    "rating": 3.9,
+    "reviews": 4226,
+    "brand": "Lenovo",
+    "category": "laptop",
+    "shipping": 66,
+    "delivery_days": 2
+  },
+  {
+    "name": "Generic Phone Case",
+    "price": 1409,
+    "rating": 4.8,
+    "reviews": 2111,
+    "brand": "Generic",
+    "category": "accessories",
+    "shipping": 124,
+    "delivery_days": 1
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 44427,
+    "rating": 4.6,
+    "reviews": 3030,
+    "brand": "Samsung",
+    "category": "phone",
+    "shipping": 358,
+    "delivery_days": 8
+  },
+  {
+    "name": "Samsung Galaxy A54",
+    "price": 42286,
+    "rating": 4.0,
+    "reviews": 1053,
+    "brand": "Samsung",
+    "category": "phone",
+    "shipping": 435,
+    "delivery_days": 10
+  },
+  {
+    "name": "Sony Wireless Earbuds",
+    "price": 2608,
+    "rating": 5.0,
+    "reviews": 3310,
+    "brand": "Sony",
+    "category": "accessories",
+    "shipping": 410,
+    "delivery_days": 2
+  },
+  {
+    "name": "Xiaomi Poco X5",
+    "price": 22808,
+    "rating": 4.4,
+    "reviews": 1283,
+    "brand": "Xiaomi",
+    "category": "phone",
+    "shipping": 110,
+    "delivery_days": 3
+  },
+  {
+    "name": "Nike Sports T-Shirt",
+    "price": 1619,
+    "rating": 3.9,
+    "reviews": 573,
+    "brand": "Nike",
+    "category": "clothes",
+    "shipping": 373,
+    "delivery_days": 6
+  },
+  {
+    "name": "Casio Edifice",
+    "price": 46237,
+    "rating": 3.6,
+    "reviews": 4982,
+    "brand": "Casio",
+    "category": "watch",
+    "shipping": 494,
+    "delivery_days": 1
+  },
+  {
+    "name": "Samsung Galaxy Buds",
+    "price": 2496,
+    "rating": 4.7,
+    "reviews": 3005,
+    "brand": "Samsung",
+    "category": "accessories",
+    "shipping": 361,
+    "delivery_days": 2
+  },
+  {
+    "name": "Asus ROG Strix",
+    "price": 143483,
+    "rating": 4.5,
+    "reviews": 4544,
+    "brand": "Asus",
+    "category": "laptop",
+    "shipping": 35,
+    "delivery_days": 4
+  },
+  {
+    "name": "Samsung Wireless Charger",
+    "price": 3148,
+    "rating": 3.8,
+    "reviews": 754,
+    "brand": "Samsung",
+    "category": "accessories",
+    "shipping": 32,
+    "delivery_days": 3
+  },
+  {
+    "name": "Fossil Gen 6",
+    "price": 5560,
+    "rating": 4.2,
+    "reviews": 2750,
+    "brand": "Fossil",
+    "category": "watch",
+    "shipping": 310,
+    "delivery_days": 3
+  },
+  {
+    "name": "Lenovo IdeaPad 5",
+    "price": 142872,
+    "rating": 4.0,
+    "reviews": 984,
+    "brand": "Lenovo",
+    "category": "laptop",
+    "shipping": 80,
+    "delivery_days": 7
+  },
+  {
+    "name": "Xiaomi Redmi Note 13",
+    "price": 14226,
+    "rating": 3.7,
+    "reviews": 1751,
+    "brand": "Xiaomi",
+    "category": "phone",
+    "shipping": 145,
+    "delivery_days": 8
+  },
+  {
+    "name": "Fossil Gen 6",
+    "price": 46466,
+    "rating": 3.9,
+    "reviews": 4334,
+    "brand": "Fossil",
+    "category": "watch",
+    "shipping": 117,
+    "delivery_days": 7
+  },
+  {
+    "name": "Realme GT Neo 5",
+    "price": 9738,
+    "rating": 4.1,
+    "reviews": 2100,
+    "brand": "Realme",
+    "category": "phone",
+    "shipping": 419,
+    "delivery_days": 10
+  },
+  {
+    "name": "Samsung Galaxy Fit 2",
+    "price": 13179,
+    "rating": 4.2,
+    "reviews": 4591,
+    "brand": "Samsung",
+    "category": "watch",
+    "shipping": 489,
+    "delivery_days": 6
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "price": 124919,
+    "rating": 5.0,
+    "reviews": 3200,
+    "brand": "Apple",
+    "category": "laptop",
+    "shipping": 113,
+    "delivery_days": 6
+  },
+  {
+    "name": "Generic USB Cable",
+    "price": 844,
+    "rating": 3.7,
+    "reviews": 1894,
+    "brand": "Generic",
+    "category": "accessories",
+    "shipping": 489,
+    "delivery_days": 9
+  },
+  {
+    "name": "Logitech Mechanical Keyboard",
+    "price": 2635,
+    "rating": 4.5,
+    "reviews": 4839,
+    "brand": "Logitech",
+    "category": "accessories",
+    "shipping": 407,
+    "delivery_days": 10
+  },
+  {
+    "name": "Lenovo IdeaPad 5",
+    "price": 64135,
+    "rating": 4.3,
+    "reviews": 852,
+    "brand": "Lenovo",
+    "category": "laptop",
+    "shipping": 401,
+    "delivery_days": 5
+  },
+  {
+    "name": "Titan Neo",
+    "price": 35230,
+    "rating": 4.1,
+    "reviews": 1158,
+    "brand": "Titan",
+    "category": "watch",
+    "shipping": 65,
+    "delivery_days": 7
+  },
+  {
+    "name": "Generic Phone Case",
+    "price": 425,
+    "rating": 4.4,
+    "reviews": 2937,
+    "brand": "Generic",
+    "category": "accessories",
+    "shipping": 121,
+    "delivery_days": 6
+  },
+  {
+    "name": "Realme C55",
+    "price": 10734,
+    "rating": 4.4,
+    "reviews": 2296,
+    "brand": "Realme",
+    "category": "phone",
+    "shipping": 222,
+    "delivery_days": 3
+  },
+  {
+    "name": "Logitech Gaming Mouse",
+    "price": 3785,
+    "rating": 3.8,
+    "reviews": 2415,
+    "brand": "Logitech",
+    "category": "accessories",
+    "shipping": 142,
+    "delivery_days": 2
+  },
+  {
+    "name": "Dell XPS 13",
+    "price": 133569,
+    "rating": 3.8,
+    "reviews": 4873,
+    "brand": "Dell",
+    "category": "laptop",
+    "shipping": 203,
+    "delivery_days": 3
+  },
+  {
+    "name": "Fossil Hybrid HR",
+    "price": 38429,
+    "rating": 4.4,
+    "reviews": 266,
+    "brand": "Fossil",
+    "category": "watch",
+    "shipping": 63,
+    "delivery_days": 5
+  },
+  {
+    "name": "Xiaomi Poco X5",
+    "price": 46694,
+    "rating": 3.7,
+    "reviews": 565,
+    "brand": "Xiaomi",
+    "category": "phone",
+    "shipping": 283,
+    "delivery_days": 6
+  },
+  {
+    "name": "Asus VivoBook 15",
+    "price": 29435,
+    "rating": 3.7,
+    "reviews": 3108,
+    "brand": "Asus",
+    "category": "laptop",
+    "shipping": 394,
+    "delivery_days": 1
+  },
+  {
+    "name": "Casio G-Shock",
+    "price": 10998,
+    "rating": 4.2,
+    "reviews": 1349,
+    "brand": "Casio",
+    "category": "watch",
+    "shipping": 441,
+    "delivery_days": 5
+  },
+  {
+    "name": "Xiaomi Mi 13",
+    "price": 13944,
+    "rating": 4.4,
+    "reviews": 1989,
+    "brand": "Xiaomi",
+    "category": "phone",
+    "shipping": 38,
+    "delivery_days": 7
+  },
+  {
+    "name": "Xiaomi Mi 13",
+    "price": 13189,
+    "rating": 4.0,
+    "reviews": 524,
+    "brand": "Xiaomi",
+    "category": "phone",
+    "shipping": 423,
+    "delivery_days": 2
+  },
+  {
+    "name": "Apple MacBook Air",
+    "price": 72408,
+    "rating": 3.5,
+    "reviews": 3653,
+    "brand": "Apple",
+    "category": "laptop",
+    "shipping": 446,
+    "delivery_days": 7
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "price": 18946,
+    "rating": 4.6,
+    "reviews": 290,
+    "brand": "Samsung",
+    "category": "watch",
+    "shipping": 346,
+    "delivery_days": 8
+  },
+  {
+    "name": "Samsung Galaxy Buds",
+    "price": 776,
+    "rating": 4.1,
+    "reviews": 2457,
+    "brand": "Samsung",
+    "category": "accessories",
+    "shipping": 464,
+    "delivery_days": 4
+  },
+  {
+    "name": "HP Pavilion 14",
+    "price": 81871,
+    "rating": 3.6,
+    "reviews": 4893,
+    "brand": "HP",
+    "category": "laptop",
+    "shipping": 439,
+    "delivery_days": 8
+  },
+  {
+    "name": "Apple MacBook Air",
+    "price": 91813,
+    "rating": 4.4,
+    "reviews": 2489,
+    "brand": "Apple",
+    "category": "laptop",
+    "shipping": 83,
+    "delivery_days": 10
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "price": 43045,
+    "rating": 4.6,
+    "reviews": 523,
+    "brand": "Apple",
+    "category": "watch",
+    "shipping": 427,
+    "delivery_days": 7
+  },
+  {
+    "name": "Dell Inspiron 15",
+    "price": 56071,
+    "rating": 4.7,
+    "reviews": 1019,
+    "brand": "Dell",
+    "category": "laptop",
+    "shipping": 454,
+    "delivery_days": 10
+  },
+  {
+    "name": "Dell XPS 13",
+    "price": 105705,
+    "rating": 4.9,
+    "reviews": 1504,
+    "brand": "Dell",
+    "category": "laptop",
+    "shipping": 104,
+    "delivery_days": 3
+  },
+  {
+    "name": "Levi's Trucker Jacket",
+    "price": 4623,
+    "rating": 4.4,
+    "reviews": 4738,
+    "brand": "Levi's",
+    "category": "clothes",
+    "shipping": 56,
+    "delivery_days": 1
+  },
+  {
+    "name": "Samsung Wireless Charger",
+    "price": 712,
+    "rating": 3.6,
+    "reviews": 1417,
+    "brand": "Samsung",
+    "category": "accessories",
+    "shipping": 412,
+    "delivery_days": 4
+  },
+  {
+    "name": "Samsung Galaxy M14",
+    "price": 48633,
+    "rating": 4.7,
+    "reviews": 1704,
+    "brand": "Samsung",
+    "category": "phone",
+    "shipping": 375,
+    "delivery_days": 1
+  },
+  {
+    "name": "Generic USB Cable",
+    "price": 2135,
+    "rating": 4.2,
+    "reviews": 3623,
+    "brand": "Generic",
+    "category": "accessories",
+    "shipping": 33,
+    "delivery_days": 8
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "price": 45561,
+    "rating": 4.4,
+    "reviews": 4956,
+    "brand": "Apple",
+    "category": "laptop",
+    "shipping": 384,
+    "delivery_days": 10
+  },
+  {
+    "name": "H&M Casual Shirt",
+    "price": 602,
+    "rating": 3.5,
+    "reviews": 3654,
+    "brand": "H&M",
+    "category": "clothes",
+    "shipping": 61,
+    "delivery_days": 4
+  },
+  {
+    "name": "Xiaomi Redmi Note 13",
+    "price": 26170,
+    "rating": 3.9,
+    "reviews": 2741,
+    "brand": "Xiaomi",
+    "category": "phone",
+    "shipping": 102,
+    "delivery_days": 5
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "price": 12823,
+    "rating": 5.0,
+    "reviews": 4592,
+    "brand": "Apple",
+    "category": "watch",
+    "shipping": 142,
+    "delivery_days": 7
+  },
+  {
+    "name": "Apple iPhone 13",
+    "price": 36898,
+    "rating": 4.5,
+    "reviews": 3281,
+    "brand": "Apple",
+    "category": "phone",
+    "shipping": 162,
+    "delivery_days": 9
+  },
+  {
+    "name": "Nike Sports T-Shirt",
+    "price": 1874,
+    "rating": 3.9,
+    "reviews": 1394,
+    "brand": "Nike",
+    "category": "clothes",
+    "shipping": 327,
+    "delivery_days": 7
+  },
+  {
+    "name": "Nike Air Hoodie",
+    "price": 2309,
+    "rating": 4.5,
+    "reviews": 2379,
+    "brand": "Nike",
+    "category": "clothes",
+    "shipping": 89,
+    "delivery_days": 1
+  },
+  {
+    "name": "Realme GT Neo 5",
+    "price": 36884,
+    "rating": 3.7,
+    "reviews": 2209,
+    "brand": "Realme",
+    "category": "phone",
+    "shipping": 100,
+    "delivery_days": 1
+  },
+  {
+    "name": "Samsung Galaxy A54",
+    "price": 42822,
+    "rating": 4.0,
+    "reviews": 3387,
+    "brand": "Samsung",
+    "category": "phone",
+    "shipping": 247,
+    "delivery_days": 9
+  },
+  {
+    "name": "Sony Portable Speaker",
+    "price": 577,
+    "rating": 3.9,
+    "reviews": 1215,
+    "brand": "Sony",
+    "category": "accessories",
+    "shipping": 446,
+    "delivery_days": 7
+  },
+  {
+    "name": "Levi's Slim Jeans",
+    "price": 3843,
+    "rating": 4.8,
+    "reviews": 2135,
+    "brand": "Levi's",
+    "category": "clothes",
+    "shipping": 66,
+    "delivery_days": 4
+  },
+  {
+    "name": "H&M Denim Jeans",
+    "price": 1480,
+    "rating": 5.0,
+    "reviews": 4050,
+    "brand": "H&M",
+    "category": "clothes",
+    "shipping": 292,
+    "delivery_days": 5
+  },
+  {
+    "name": "Titan Neo",
+    "price": 17002,
+    "rating": 3.8,
+    "reviews": 2691,
+    "brand": "Titan",
+    "category": "watch",
+    "shipping": 381,
+    "delivery_days": 3
+  },
+  {
+    "name": "Fossil Hybrid HR",
+    "price": 8285,
+    "rating": 4.9,
+    "reviews": 410,
+    "brand": "Fossil",
+    "category": "watch",
+    "shipping": 205,
+    "delivery_days": 7
+  },
+  {
+    "name": "H&M Casual Shirt",
+    "price": 1006,
+    "rating": 4.5,
+    "reviews": 4048,
+    "brand": "H&M",
+    "category": "clothes",
+    "shipping": 212,
+    "delivery_days": 2
+  },
+  {
+    "name": "Puma T-Shirt",
+    "price": 690,
+    "rating": 4.7,
+    "reviews": 4891,
+    "brand": "Puma",
+    "category": "clothes",
+    "shipping": 261,
+    "delivery_days": 6
+  },
+  {
+    "name": "HP Pavilion 14",
+    "price": 74638,
+    "rating": 4.1,
+    "reviews": 4465,
+    "brand": "HP",
+    "category": "laptop",
+    "shipping": 116,
+    "delivery_days": 7
+  },
+  {
+    "name": "Puma Sports Hoodie",
+    "price": 3221,
+    "rating": 4.5,
+    "reviews": 1259,
+    "brand": "Puma",
+    "category": "clothes",
+    "shipping": 355,
+    "delivery_days": 2
+  },
+  {
+    "name": "OnePlus OnePlus Nord 3",
+    "price": 39725,
+    "rating": 4.3,
+    "reviews": 1130,
+    "brand": "OnePlus",
+    "category": "phone",
+    "shipping": 176,
+    "delivery_days": 7
+  }
 ]

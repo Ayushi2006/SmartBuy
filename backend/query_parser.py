@@ -1,27 +1,28 @@
-# query_parser.py
 import re
 
 def parse_query(query):
     query = query.lower()
     budget = None
+    category = None
 
-    # Extract number
+    # Parse budget like "10k" or "30000"
     match = re.search(r'(\d+)\s*k?', query)
     if match:
-        num = int(match.group(1))
+        budget = int(match.group(1))
+        # Convert k to actual number if k is in query
         if 'k' in query:
-            budget = num * 1000
-        else:
-            budget = num
+            budget *= 1000
 
-    # Determine category
+    # Identify category
     if "phone" in query:
         category = "phone"
-    elif "clothes" in query or "shirt" in query or "jeans" in query:
+    elif "laptop" in query:
+        category = "laptop"
+    elif "watch" in query:
+        category = "watch"
+    elif "clothes" in query:
         category = "clothes"
-    elif "electronics" in query or "tv" in query or "headphones" in query or "watch" in query:
-        category = "electronics"
-    else:
-        category = None
+    elif "accessories" in query:
+        category = "accessories"
 
     return {"budget": budget, "category": category}

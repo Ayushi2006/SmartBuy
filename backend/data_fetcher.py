@@ -5,15 +5,15 @@ def load_products():
     base_dir = os.path.dirname(__file__)
     data_path = os.path.join(base_dir, "data.json")
 
+    if not os.path.exists(data_path):
+        print("⚠️ data.json not found! Please generate data first.")
+        return []
+
     with open(data_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            print("⚠️ data.json is empty or invalid! Please regenerate it.")
+            return []
+
     return data
-
-def get_products(query):
-    data = load_products()
-
-    filtered = [p for p in data if query.lower() in p["name"].lower()]
-    print("using local dataset...")
-
-    return filtered if filtered else data
