@@ -1,0 +1,12 @@
+[
+  {"name":"iPhone 13","price":49999,"rating":4.6,"reviews":12000,"brand":"Apple","category":"phone"},
+  {"name":"Samsung Galaxy S21 FE","price":45999,"rating":4.4,"reviews":8500,"brand":"Samsung","category":"phone"},
+  {"name":"OnePlus 11R","price":39999,"rating":4.5,"reviews":10200,"brand":"OnePlus","category":"phone"},
+  {"name":"Google Pixel 7","price":47999,"rating":4.3,"reviews":6200,"brand":"Google","category":"phone"},
+  {"name":"iQOO Neo 7 Pro","price":34999,"rating":4.4,"reviews":5400,"brand":"iQOO","category":"phone"},
+  {"name":"Realme GT 6","price":29999,"rating":4.2,"reviews":4200,"brand":"Realme","category":"phone"},
+  {"name":"Nothing Phone 2","price":44999,"rating":4.3,"reviews":3900,"brand":"Nothing","category":"phone"},
+  {"name":"Samsung Galaxy A54","price":37999,"rating":4.2,"reviews":6100,"brand":"Samsung","category":"phone"},
+  {"name":"Redmi Note 13 Pro+","price":31999,"rating":4.1,"reviews":7200,"brand":"Xiaomi","category":"phone"},
+  {"name":"Motorola Edge 40","price":36999,"rating":4.3,"reviews":5100,"brand":"Motorola","category":"phone"}
+]
